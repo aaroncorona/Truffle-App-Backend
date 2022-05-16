@@ -21,7 +21,7 @@ public class FanService {
     }
 
     // Method to get all documents from the repository
-    public static List<Fan> getAllfans(){
+    public static List<Fan> getAllFans(){
         List<Fan> fans = new LinkedList<Fan>();
         fans = repo.findAll();
         return fans;
