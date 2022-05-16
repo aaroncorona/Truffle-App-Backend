@@ -1,5 +1,6 @@
 package com.example.fansbackend;
 
+import com.example.fansbackend.Repository.FanRepository;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 

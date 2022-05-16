@@ -30,7 +30,7 @@ public class FanController {
         return("Hello Goodbye");
     }
 
-    // GET all fans (UI)
+    // GET all fans (UI) (optional step - Front end has the same feature)
     @GetMapping("/fans")
     public ModelAndView allUI() { // generate model variable for the HTML to use
         ModelAndView mav = new ModelAndView();
@@ -40,13 +40,6 @@ public class FanController {
     }
 
     // GET all fans (JSON format)
-    @GetMapping("/truffleteddy.com")
-    public List<Fan> allJSON() {
-        List fansList = service.getAllFans();
-        return fansList;
-    }
-
-    // GET all fans (Public test)
     @GetMapping("/fans/json")
     public List<Fan> allPublic() {
         List fansList = service.getAllFans();
