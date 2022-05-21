@@ -25,12 +25,14 @@ public class FanController {
     }
 
     // GET default return
+    @CrossOrigin("*")
     @GetMapping()
     public String hello() {
         return("Hello Goodbye");
     }
 
     // GET all fans (JSON format)
+    @CrossOrigin("*")
     @GetMapping("/fans/json")
     public List<Fan> allPublic() {
         List fansList = service.getAllFans();
@@ -38,6 +40,7 @@ public class FanController {
     }
 
     // GET one fan (Lookup by ID)
+    @CrossOrigin("*")
     @GetMapping("/fans/json/{id}")
     public Map<String, Object> one(@PathVariable Long id) {
         Map<String, Object> fanMap = new HashMap<>();
@@ -47,6 +50,7 @@ public class FanController {
     }
 
     // POST operation (Create a new Fan)
+    @CrossOrigin("*")
     @RequestMapping(value = "/fans/signup", method = {RequestMethod.POST, RequestMethod.GET})
     public String create(@RequestParam(defaultValue = "test") String name,
                          @RequestParam(defaultValue = "0") Integer age) {
@@ -59,6 +63,7 @@ public class FanController {
 
     // PUT operation (Create/Update a Fan)
     // URL param format: http://localhost:8080/fans/update/626eeca93ed1ef2f64ea3e47?name=bandit&age=2
+    @CrossOrigin("*")
     @RequestMapping(value = "/fans/update/{id}", method = {RequestMethod.PUT, RequestMethod.GET})
     public String update(@PathVariable Long id,
                          @RequestParam(defaultValue = "test") String name,
