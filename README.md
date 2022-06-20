@@ -11,9 +11,9 @@ TruffleTeddy (<a href = 'http://TruffleTeddy.com.s3-website-us-west-1.amazonaws.
 is a full-stack web application built to track the life of Truffle and signup new fans.
 
 ## 📖 Table of Contents
-* [Features & APIs](#app-features)
-* [Tech Stack](#tech-stack---front-end)
-* [Next Release](#next-release---version-20-features)
+* [Features & APIs](#-app-features)
+* [Tech Stack](#%EF%B8%8F-tech-stack)
+* [Next Release](#-next-release---version-20-features)
 
 
 ## 🌐 App Features
@@ -27,21 +27,21 @@ is a full-stack web application built to track the life of Truffle and signup ne
 * [Post API Endpoint](http://test3app-env.eba-jdzv33hs.us-west-1.elasticbeanstalk.com/fans/signup)
 
 
-## 🖼️ Tech Stack - Front End
+## ☁️ Tech Stack
+![Screen Shot 2022-06-20 at 3 34 08 PM](https://user-images.githubusercontent.com/31792170/174685010-9d7243f9-049b-48b9-969e-10257e185538.png)
+
+### Full List:
+* Angular CLI (13.3.5)
 * TypeScript
 * CSS
 * HTML
-* Angular CLI (13.3.5)
-* AWS S3 
-* AWS Route 53
-
-
-## ☁️ Tech Stack - Back End
 * Java
 * Spring Boot
 * Spring Web
 * Thymeleaf
 * PostgreSQL
+* AWS S3 
+* AWS Route 53
 * AWS EBS
 
 
