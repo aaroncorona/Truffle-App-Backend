@@ -29,6 +29,7 @@ is a full-stack web application built to track the life of Truffle and signup ne
 
 ## ☁️ Tech Stack
 <img width="700" alt="arch" src="https://user-images.githubusercontent.com/31792170/174703306-01d1c985-7c63-4d09-8fca-2abd354e70b0.png">
+<img width="281" alt="backend arch" src="https://user-images.githubusercontent.com/31792170/174712049-bbf822fc-8e63-47ef-9bc4-6612432de707.png">
 
 ### Full List:
 * Angular CLI (13.3.5)
