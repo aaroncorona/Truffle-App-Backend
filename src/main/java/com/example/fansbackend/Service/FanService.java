@@ -32,7 +32,7 @@ public class FanService {
         return repo.findById(id);
     }
 
-    // Method to add or update a document (POST/PUT) to the Spring/Mongo Repository
+    // Method to add or update a document (POST/PUT) to the Spring Repository
     // Update = parameter is existing fan obj (presumably with different attributes)
     // Insert = parameter is net new fan obj
     public static void saveFan(Fan u){
