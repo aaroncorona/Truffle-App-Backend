@@ -28,7 +28,7 @@ is a full-stack web application built to track the life of Truffle and signup ne
 
 
 ## ☁️ Tech Stack
-![Screen Shot 2022-06-20 at 3 34 08 PM](https://user-images.githubusercontent.com/31792170/174685010-9d7243f9-049b-48b9-969e-10257e185538.png)
+<img width="700" alt="arch" src="https://user-images.githubusercontent.com/31792170/174703306-01d1c985-7c63-4d09-8fca-2abd354e70b0.png">
 
 ### Full List:
 * Angular CLI (13.3.5)
