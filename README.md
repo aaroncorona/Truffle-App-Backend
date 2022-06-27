@@ -35,7 +35,7 @@ is a full-stack web application built to track the life of Truffle and signup ne
 <img width="283" alt="backend arch" src="https://user-images.githubusercontent.com/31792170/174717703-c2b684b6-1c2b-4168-b0d5-50d81c23028b.png">
 
 ### Full Tech Stack:
-* Angular CLI (13.3.5)
+* Angular CLI 
 * TypeScript
 * CSS
 * HTML
