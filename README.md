@@ -46,8 +46,7 @@ is a full-stack web application built to track the life of Truffle and signup ne
 * CSS
 * HTML
 * Java
-* Spring Boot
-* Spring Web
+* Spring Boot & Spring Web
 * Thymeleaf
 * PostgreSQL
 * AWS S3 
