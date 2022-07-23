@@ -4,7 +4,6 @@
 <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/m/aaroncorona/Truffle-App-Frontend">
 <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/aaroncorona/Truffle-App-Frontend">
 
-
 ## 📜 Overview
 
 TruffleTeddy (<a href = 'http://TruffleTeddy.com.s3-website-us-west-1.amazonaws.com/' target = "_blank">truffleteddy.com</a>)
@@ -13,29 +12,36 @@ is a full-stack web application built to track the life of Truffle and signup ne
 ## 📖 Table of Contents
 * [Features & APIs](#-app-features)
 * [Tech Stack](#%EF%B8%8F-tech-stack)
+* [Usage](#-usage)
 * [Next Release](#-next-release---version-20-features)
 
 
 ## 🌐 App Features
-1. Content that illustrates Truffle's life
+1. A timeline-style biography of Truffle's life
 2. CSS dynamic resizing using flexboxes and media queries
-3. Signup page to permanently log your name on the list of fans
+3. Signup page to permanently log your name on the list of fans and see real-time data
+
+## 📸 Screenshots
+### _Landing Page & Bio:_ 
+<img width="400" alt="Screen Shot 2022-07-22 at 7 39 35 PM" src="https://user-images.githubusercontent.com/31792170/180587543-651d52c7-7dc3-4bc2-9e08-52f6f8d5bd5d.png">
+
+
+### _Form submit with a real-time list from the DB:_ 
+<img width="300" alt="Screen Shot 2022-07-22 at 6 30 54 PM" src="https://user-images.githubusercontent.com/31792170/180587277-ec13bb82-5f45-4966-9e0c-d3a3a4b9ce61.png">
 
 
 ## ⚡ APIs Created
 * [Get API Endpoint](http://test3app-env.eba-jdzv33hs.us-west-1.elasticbeanstalk.com/fans)
 * [Post API Endpoint](http://test3app-env.eba-jdzv33hs.us-west-1.elasticbeanstalk.com/fans/signup)
 
-
 ## ☁️ Tech Stack
-### _Overall Architecture Design:_
 <img width="700" alt="arch" src="https://user-images.githubusercontent.com/31792170/174703306-01d1c985-7c63-4d09-8fca-2abd354e70b0.png">
 
 ### _Backend Architecture Design:_
 <img width="283" alt="backend arch" src="https://user-images.githubusercontent.com/31792170/174717703-c2b684b6-1c2b-4168-b0d5-50d81c23028b.png">
 
-### Full Tech Stack:
-* Angular CLI 
+### Full List:
+* Angular CLI (13.3.5)
 * TypeScript
 * CSS
 * HTML
@@ -48,11 +54,14 @@ is a full-stack web application built to track the life of Truffle and signup ne
 * AWS Route 53
 * AWS EBS
 
+## 🚀 Usage
+1. Clone this repo locally and run `npm install` to install all the dependencies.
+2. Run `npm start` to launch the application. It should be running on localhost:4200.
+3. Run `ng generate component component-name` to generate a new component if desired. 
+4. To get more help on the Angular CLI use `ng help`.
 
 ## 🚧 Next Release - Version 2.0 Features
-1. Log more detailed fan information (e.g. signup with email address)
-2. More content like videos and a page for Truffle's little sister
-3. Open to suggestions!
-
-
+* Log more detailed fan information (e.g. signup with email address)
+* More content like videos and a page for Truffle's little sister
+* Open to suggestions!
 
